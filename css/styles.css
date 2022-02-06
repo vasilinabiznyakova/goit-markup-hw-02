@@ -17,8 +17,7 @@ body {
 .link {
   text-decoration: none;
 }
-/* ========= START COMPONENTS ========= */
-/* ========= END COMPONENTS ========= */
+
 /* ========= START HEADER =========*/
 .logo {
   font-family: Raleway;
@@ -45,6 +44,9 @@ body {
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
+  color: var(--accent-color);
+}
+.nav-list-link.current {
   color: var(--accent-color);
 }
 .contacts-list-info {
