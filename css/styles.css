@@ -6,6 +6,9 @@
   --primary-text-color-theme-light: #ffffff;
   --secondary-text-color-theme-light: rgba(255, 255, 255, 0.6);
   --primary-background-color-theme-dark: #2f303a;
+  --secondary-background-color-theme-light: #f5f4fa;
+  --logo-main-color: #2196f3;
+  --header-logo-secondary-color: #212121;
   --accent-color: #2196f3;
 }
 body {
@@ -26,10 +29,10 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.header-logo-main-color {
-  color: #2196f3;
+.header-logo-main {
+  color: var(--logo-main-color);
 }
-.header-logo-secondary-color {
+.header-logo-secondary {
   color: var(--secondary-text-color-theme-dark);
 }
 
@@ -77,8 +80,8 @@ body {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primary-text-color-theme-light);
+  background-color: var(--accent-color);
 }
 .features-list-title {
   font-weight: 700;
@@ -124,10 +127,10 @@ body {
 .footer {
   background-color: var(--primary-background-color-theme-dark);
 }
-.footer-logo-primary-color {
-  color: #2196f3;
+.footer-logo-main {
+  color: var(--logo-main-color);
 }
-.footer-logo-secondary-color {
+.footer-logo-secondary {
   color: var(--primary-text-color-theme-light);
 }
 .address-list-text {
@@ -153,7 +156,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-dark);
-  background-color: #f5f4fa;
+  background-color: var(--secondary-background-color-theme-light);
 }
 .filter-item-btn:active {
   color: var(--primary-text-color-theme-light);
