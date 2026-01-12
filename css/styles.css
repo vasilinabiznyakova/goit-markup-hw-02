@@ -1,12 +1,98 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+/* ============= VARIABLES ============= */
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --body-bg-color: #e7e9fc;
 }
 
-h2 {
+/* ============= /VARIABLES ============= */
+
+/* ============= COMMON STYLES ============= */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+  background-color: var(--body-bg-color);
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+/* ============= COMMON STYLES ============= */
+
+/* h2 {
     font-weight: 700;
 }
 
 h3 {
     font-weight: 500;
+} */
+
+/* ============= HEADER ============= */
+
+.header-logo-main {
+  color: var(--accent-color);
 }
+
+.header-logo-secondary {
+  color: var(--secondary-text-color);
+}
+
+.nav-items {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contacts-list {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* ============= HEADER ============= */
+
+/* ============= FOOTER ============= */
+
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo-primary {
+  color: var(--accent-color);
+}
+
+.footer-logo-secondary {
+  color: #f4f4fd;
+}
+
+.footer-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+/* ============= FOOTER ============= */
