@@ -48,7 +48,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: var(var(--dark-color));
+  color: var(--dark-color);
 }
 
 .card-title {
