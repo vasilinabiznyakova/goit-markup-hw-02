@@ -5,8 +5,8 @@
   --dark-color: #2e2f42;
   --brand-color: #4d5ae5;
   --accent-color: #404bbf;
-  --white-color: var(--white-color);
-  --light-bg-color: var(--light-bg-color);
+  --white-color: #ffffff;
+  --light-bg-color: #f4f4fd;
 }
 
 /* ============= /VARIABLES ============= */
