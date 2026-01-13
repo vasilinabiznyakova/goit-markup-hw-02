@@ -2,7 +2,7 @@
 :root {
   --primary-font: 'Roboto', sans-serif;
   --primary-text-color: #434455;
-  --secondary-text-color: #2e2f42;
+  --dark-color: #2e2f42;
   --brand-color: #4d5ae5;
   --accent-color: #404bbf;
   --body-bg-color: #ffffff;
@@ -10,7 +10,7 @@
 
 /* ============= /VARIABLES ============= */
 
-/* ============= COMMON STYLES ============= */
+/* ============= COMMON STYLES   ============= */
 a {
   text-decoration: none;
   color: inherit;
@@ -19,8 +19,6 @@ a {
 ul,
 ol {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 button {
@@ -40,14 +38,17 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  color: var(--brand-color);
 }
 
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: var(var(--dark-color));
 }
 
 .card-title {
@@ -55,7 +56,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
+  color: var(--dark-color);
 }
 
 .card-text {
@@ -68,12 +69,8 @@ body {
 
 /* ============= HEADER ============= */
 
-.header-logo-main {
-  color: var(--brand-color);
-}
-
 .header-logo-secondary {
-  color: var(--secondary-text-color);
+  color: var(--dark-color);
 }
 
 .nav-items {
@@ -90,7 +87,7 @@ body {
   color: var(--accent-color);
 }
 
-.contacts-list {
+.address-section {
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
@@ -105,13 +102,13 @@ body {
 
 /* ============= HERO ============= */
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--dark-color);
 }
 
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
@@ -145,7 +142,7 @@ body {
 
 /* ============= FOOTER ============= */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--dark-color);
 }
 .footer-logo-primary {
   color: var(--brand-color);
