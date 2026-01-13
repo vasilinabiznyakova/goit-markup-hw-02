@@ -74,12 +74,12 @@ body {
   color: var(--dark-color);
 }
 
-.nav-items {
+.nav-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--dark-color);
 }
 
 .nav-item:hover,
@@ -138,6 +138,10 @@ body {
 /* ============= TEAM ============= */
 .team-section {
   background-color: var(--light-bg-color);
+}
+
+.team-item {
+  background-color: var(--white-color);
 }
 /* ============= TEAM ============= */
 
