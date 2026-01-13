@@ -5,7 +5,8 @@
   --dark-color: #2e2f42;
   --brand-color: #4d5ae5;
   --accent-color: #404bbf;
-  --body-bg-color: #ffffff;
+  --white-color: var(--white-color);
+  --light-bg-color: var(--light-bg-color);
 }
 
 /* ============= /VARIABLES ============= */
@@ -28,7 +29,7 @@ button {
 body {
   font-family: var(--primary-font);
   color: var(--primary-text-color);
-  background-color: var(--body-bg-color);
+  background-color: var(--white-color);
 }
 
 .logo {
@@ -111,7 +112,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .hero-button {
@@ -121,7 +122,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .hero-button:hover,
@@ -136,7 +137,7 @@ body {
 
 /* ============= TEAM ============= */
 .team-section {
-  background-color: #f4f4fd;
+  background-color: var(--light-bg-color);
 }
 /* ============= TEAM ============= */
 
@@ -149,13 +150,13 @@ body {
 }
 
 .footer-logo-secondary {
-  color: #f4f4fd;
+  color: var(--light-bg-color);
 }
 
 .footer-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--light-bg-color);
 }
 /* ============= FOOTER ============= */
